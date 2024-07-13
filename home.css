@@ -1,8 +1,20 @@
+/* google fonts */
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* cormaorant garamond */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* lato */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* navbar */
 .nav-bg{
     background-color: transparent;
 }
 
+.nav-bg4{
+  background-color: #7A7A7A;
+}
 /* menuicon */
 .menu {
     font: size 18px;
@@ -732,58 +744,97 @@ main {
 
 /* another page */
 /* working procedure page */
-.procedure-content {
-  text-align: center;
-  /* padding: 1em; */
-  width: 80%;
-  max-width: 100%;
-}
 
 .procedure-div{
   height: 60vh;
   background-color: #F5F5F5;
 }
 
-.row-procedure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25vh;
-  padding-top: 100px;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  /* border: 1px solid #ccc;
-  margin: 1em 0; */
-}
-
-.row-procedure1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15vh;
-  padding-top: 30px;
-  /* border: 1px solid #ccc;
-  margin: 1em 0; */
+.procedure-div-width{
+  width: 60%;
 }
 
 .procedure-topic{
   font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-size: 36px;
+  font-weight: 600; /*semibold*/
+  font-size: 48px;
+  color: #616161;
+}
+
+.procedure-div-text{
+  font-family: "Poppins", serif;
+  font-weight: 400; /*regular*/
+  font-size: 18px;
   color: #616161;
 }
 
 /* product price calculation order */
+.product-sec{
+  border: 1px solid white;
+}
+
 .sub-div{
   display: flex;
   width: 424px;
   height: 100px;
   background-color: #D9D9D9;
+  color: #616161;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   margin: 10px;
-  font-weight: 600;
+  font-family: "Lato", sans-serif; /*lato font*/
+  font-weight: 600; /*semibold*/
+  font-size: 24px; 
+}
+
+.procedure-text-topic{
+  font-family: "Lato", sans-serif; /*lato font*/
+  font-weight: 600; /*semibold*/
   font-size: 24px;
   color: #616161;
+}
+
+.procedure-text-para{
+  font-family: "Poppins", sans-serif; /*lato font*/
+  font-weight: 400; /*semibold*/
+  font-size: 16px;
+  color: #616161;
+}
+
+/* slider section */
+
+.slideshow-container {
+  width: 416px;
+  height: 513px;
+  border: 1px solid #868686;
+  border-radius: 6px;
+  background-color: #F5F5F5;
+  box-shadow: 0px 6px 3px rgba(0,0,0,0.8);
+}
+
+.mySlides{
+  padding-top: 20%;
+  padding-left: 15%;
+  width: 80%;
+}
+
+/* Next & previous buttons */
+.prev-btn{
+  height: 70px;
+  border: none;
+  border-radius: 70px;
+  width: 70px;
+  background-color: #D9D9D9;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }

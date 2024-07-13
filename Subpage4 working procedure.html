@@ -15,7 +15,7 @@
 
     <!-- Navbar -->
     <!-- Navbar -->
-<header class="fixed-top nav-bg">
+<header class="fixed-top nav-bg4" id="header">
         <div class="row d-flex justify-content-between align-items-center text-nowrap py-2">
             <div class="col-lg-3 col-md-2 col-sm-2">
                 <a href="#" class="text-white text-decoration-none h4 mb-0 p-2 ">
@@ -175,35 +175,90 @@
         </div>
     </div>
 </div>
+<!-- procedure topic -->
 
-
-<main>
-    <!-- working procedure  -->
-    <div class="procedure-div">
-        <div class="row-procedure">
-            <div class="procedure-content text-nowrap"><p class="procedure-topic">Working Procedure</p></div>
-        </div>
-        <div class="row-procedure1">
-            <div class="procedure-content text-paragraph">"Our work process is designed to effectively meet your needs, 
-                beginning with specific <br>product details, such as fabric composotion, measurements, trim and accessories."</div>
-        </div>
+<section id="main" class="procedure-div d-flex justify-content-center align-items-center">
+    <div class="d-flex flex-column procedure-div-width text-center">
+        <p class="procedure-topic text-nowrap">Working Procedure</p>
+        <p class="procedure-div-text">"Our work process is designed to effectively meet your needs, beginning with specific product details, such as fabric composition, measurements, trim, and accessories."</p>
     </div>
+</section>
 
 
     <!-- product,order,price, flow -->
+<section>
      <div class="container mt-5">
         <div class="row d-flex justify-content-between">
-            <div class="col sub-div">Product & Order Details</div>
-            <div class="col sub-div">Price Calculation</div>
-            <div class="col sub-div">Sample Development</div>
+            <div class="col sub-div text-nowrap">Product & Order Details</div>
+            <div class="col sub-div text-nowrap">Price Calculation</div>
+            <div class="col sub-div text-nowrap">Sample Development</div>
         </div>
         <div class="row d-flex justify-content-between pt-5">
-            <div class="col sub-div">Order Confirmation & Payment</div>
-            <div class="col sub-div">Production & Quality Check</div>
-            <div class="col sub-div">Shipment & Delivery</div>
+            <div class="col sub-div text-nowrap">Order Confirmation & Payment</div>
+            <div class="col sub-div text-nowrap">Production & Quality Check</div>
+            <div class="col sub-div text-nowrap">Shipment & Delivery</div>
         </div>
      </div>
-</main>
+</section>
+
+<!-- product and order details -->
+<section class="product-sec m-5">
+    
+    <div class="container m-5">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="">
+                <button class=" prev-btn" onclick="plusSlides(-1)">❮ </button>
+            </div>
+
+            <div class=" slideshow-container border">
+
+                <div class="mySlides">
+                <p class="procedure-text-topic">Product & Order details</p> 
+                <p class="procedure-text-para">To effectively meet customer needs, we require specific product details, such as: </p> 
+                <ul class="procedure-text-para">
+                    <li>Fabric Composition -Measurements </li>
+                    <li>Trim & Accessories </li>
+                    <li>Packaging Specifications </li>
+                    <li>Sizing and Quantity Breakdown </li>
+                    <li>Preferred Payment Method</li>
+                </ul>
+                </div>
+
+                <div class="mySlides">
+                    <p class="procedure-text-topic">Price Calculation</p> 
+                    <p class="procedure-text-para">We calculate prices based on product and order specifications. Our decision is based on finding the most optimal solution and comes from negotiation with vendors to provide the best quality at the lowest cost. </p> 
+                </div>
+                
+                <div class="mySlides">
+                    <p class="procedure-text-topic">Sample Development</p> 
+                    <p class="procedure-text-para"> After developing the sample according to the specifications, we will send it to the customer for approval. We are open to revisions until we receive approval to move on to the next phase of production. We must receive customer approval of all samples before moving forward, as it allows us to ensure the highest quality and customer satisfaction.</p> 
+                </div>
+
+                <div class="mySlides">
+                    <p class="procedure-text-topic">Order Confirmation & Payment</p> 
+                    <p class="procedure-text-para"> Once the sample is approved, we will proceed with order confirmation through payment. Small quantity orders are recommended to pay through TT or wire transfer, although PayPal is also an acceptable method of transaction. In the case of large orders, we highly recommend using a letter of credit</p> 
+                </div>
+                
+                <div class="mySlides">
+                    <p class="procedure-text-topic">Production & Quality Check</p> 
+                    <p class="procedure-text-para">After order confirmation, we can begin the production process. Quality control is a large part of this process, as we assure that all product specifications are met through rigorous oversight and repeated tests, with only the highest quality garments being approved for the order. </p> 
+                </div>
+
+                <div class="mySlides">
+                    <p class="procedure-text-topic">Shipment & Delivery</p> 
+                    <p class="procedure-text-para">We can ship orders by air, sea, or courier. The customer can choose to ship with their service or use our shipping- in which case, we deliver directly to the customer's warehouse, deal with customs in their country for clearance, and provide insurance to guarantee safe delivery. </p> 
+                </div>
+                
+            </div>
+            <div class="">
+                <button class=" prev-btn" onclick="plusSlides(1)">❯</button>     
+            </div>      
+        </div>
+    </div>
+    
+</section>
+
+
 <!-- contact section -->
 <div class=" mt-5 contact-bg">
     <div class="row p-5">

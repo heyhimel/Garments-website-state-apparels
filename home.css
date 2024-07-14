@@ -751,7 +751,7 @@ main {
 }
 
 .procedure-div-width{
-  width: 60%;
+  width: 63%;
 }
 
 .procedure-topic{
@@ -796,8 +796,8 @@ main {
 }
 
 .procedure-text-para{
-  font-family: "Poppins", sans-serif; /*lato font*/
-  font-weight: 400; /*semibold*/
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 400; /*regular*/
   font-size: 16px;
   color: #616161;
 }
@@ -814,8 +814,8 @@ main {
 }
 
 .mySlides{
-  padding-top: 20%;
-  padding-left: 15%;
+  padding-top: 14%;
+  padding-left: 11%;
   width: 80%;
 }
 
@@ -831,10 +831,93 @@ main {
   font-size: 40px;
 }
 
-/* Position the "next button" to the right */
 
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+/* another page subpage2 what we do*/
+
+.process-div{
+  border: 1px solid #F5F5F5;
 }
+
+.manufacturing-text-topic{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 400; /*regular*/
+  font-size: 32px;
+  color: #616161;
+}
+
+/* slider */
+.mySlides1{
+  padding-top: 14%;
+  padding-left: 11%;
+  width: 80%;
+}
+
+.mySlides2{
+  padding-top: 14%;
+  padding-left: 11%;
+  width: 80%;
+}
+
+/* another page subpage4 faq */
+
+.faq-topic{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.faq-big-text-div{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #616161;
+}
+
+.faq-big-text{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 700; /*bold*/
+  font-size: 64px;
+  color: #616161;
+  opacity: 10%;
+}
+
+/* collapse section */
+.question-img-div{
+  height: 5%;
+  width: 10%;
+}
+.collaps-border{
+  border-bottom: 2px solid #BFB0B0;
+  margin: 30px;
+}
+
+.collaps-ans
+{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 500; /*medium*/
+  font-size: 16px;
+  color: #616161;
+  border: none;
+}
+
+.collaps-ques
+{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 600; /*semibold*/
+  font-size: 16px;
+  color: #1E1E1E;
+}
+
+

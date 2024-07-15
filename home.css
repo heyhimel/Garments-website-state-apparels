@@ -720,14 +720,14 @@ main {
 
 .text-main-topic{
   font-family: "Cormorant Garamond", serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 48px;
   color: #616161;
 }
 
 .text-topic{
   font-family: "Cormorant Garamond", serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 36px;
   color: #616161;
 }
@@ -748,6 +748,11 @@ main {
 .procedure-div{
   height: 60vh;
   background-color: #F5F5F5;
+}
+
+.procedure-div-width-topic{
+  width: 39%;
+  padding-bottom: 20px;
 }
 
 .procedure-div-width{
@@ -960,3 +965,5 @@ complaince why bd page */
   font-size: 20px;
   color: #616161;
 }
+
+/* another page compliance social issue */

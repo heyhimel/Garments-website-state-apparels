@@ -921,3 +921,42 @@ main {
 }
 
 
+/* another page
+complaince why bd page */
+.li-text-type{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 400; /*regular*/
+  font-size: 22px;
+  color: #616161;
+}
+
+.li-padding{
+  padding-top: 20px;
+}
+
+.map-img-div{
+  width: 70%;
+  height: 80%;
+}
+
+.map-img-div img{
+  width: 100%;
+  height: 100%;
+}
+
+/* another page sustainable */
+
+.energy-div{
+  min-height: 20vh;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #616161;
+}
+
+.energy-list{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 400; /*regular*/
+  font-size: 20px;
+  color: #616161;
+}

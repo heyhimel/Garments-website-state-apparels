@@ -967,3 +967,18 @@ complaince why bd page */
 }
 
 /* another page compliance social issue */
+
+
+/* another page compliance safty issue */
+.safty-div-width-topic{
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+
+.safty-topic{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #616161;
+}

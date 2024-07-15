@@ -29,9 +29,9 @@
     // working procedure page, dynamic adjust main section postion according to header
 
     function adjustContentPosition() {
-      const header = document.getElementById('header');
-      const content = document.getElementById('main');
-      const headerHeight = header.offsetHeight;
+      let header = document.getElementById('header');
+      let content = document.getElementById('main');
+      let headerHeight = header.offsetHeight;
       content.style.marginTop = headerHeight + 'px';
   }
 

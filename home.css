@@ -991,3 +991,61 @@ complaince why bd page */
   font-size: 48px;
   color: #616161;
 }
+
+/* another page product details */
+.product-details-text{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.categories-text-type{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 500; /*regular*/
+  font-size: 18px;
+  color: #000000;
+}
+
+.categories-velue{
+font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 400; /*regular*/
+  font-size: 16px;
+  color: #000000;
+}
+
+/*another page blog page */
+.profile-name{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #616161;
+}
+
+.profile-position{
+  padding-left: 20px;
+}
+
+.profile-sub-text{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+}
+
+.paragraph-div{
+  width: 65%;
+}
+
+.want-read-topic{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 500; /*regular*/
+  font-size: 24px;
+  color: #232536;
+}
+
+.input-div-height{
+  height: 45px;
+  border-radius: 2px;
+  border: 1px solid black;
+}

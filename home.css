@@ -1039,7 +1039,7 @@ font-family: "Poppins", sans-serif; /*poppins font*/
 
 .want-read-topic{
   font-family: "Poppins", sans-serif; /*poppins font*/
-  font-weight: 500; /*regular*/
+  font-weight: 500; /*med*/
   font-size: 24px;
   color: #232536;
 }
@@ -1048,4 +1048,37 @@ font-family: "Poppins", sans-serif; /*poppins font*/
   height: 45px;
   border-radius: 2px;
   border: 1px solid black;
+}
+
+/* another page contact us */
+
+.contactbox-radius{
+  border-radius: 6px;
+}
+
+.contact-info-text{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 600; /*semi*/
+  font-size: 22px;
+}
+
+.transparent-form input {
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent input box */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: Adds a semi-transparent border */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #fff; /* Set text color to ensure readability */
+}
+
+.form-div{
+  padding: 6%;
+}
+
+.map-topic{
+  font-family: "Poppins", sans-serif; /*poppins font*/
+  font-weight: 500; /*med*/
+  font-size: 32px;
+  color: #616161;
 }

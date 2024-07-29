@@ -1163,3 +1163,19 @@ color: #616161;
 .casual-div-width{
   width: 80%;
 }
+
+.image-div {
+  position: relative;
+  padding-top: 2%;
+}
+
+.text-boy-girl {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: rgba(255, 255, 255, 0.7); /* White with transparency */
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
